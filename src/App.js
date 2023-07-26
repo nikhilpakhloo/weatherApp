@@ -1,4 +1,4 @@
-import HotBg from './assets/hot.jpg'
+// import HotBg from './assets/hot.jpg'
 
 
 import { useEffect, useState } from 'react';
