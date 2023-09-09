@@ -1,13 +1,13 @@
 .section__descriptions{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    gap: 2.5rem;
+    gap: 0.5rem;
 }
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+   justify-content: space-between;
     background-color: var(--section-overlay);
     padding: 1rem;
     border: 0.4rem;
@@ -16,6 +16,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+
     align-items: center;
     justify-content: center;
     gap: 5px;
