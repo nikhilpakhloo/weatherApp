@@ -11,7 +11,7 @@ import Sunnybg from './assets/sun.jpg'
 
 
 function App() {
-  const [city,setCity]=useState("Himachal Pradesh")
+  const [city,setCity]=useState("Shimla")
   const [weather,setWeather] = useState(null)
   const [units, setUnits] = useState("metric")
   const [bg, setBg] = useState(SnowBg)
