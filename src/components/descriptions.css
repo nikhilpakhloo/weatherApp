@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 0.5rem;
+    place-items: center;
 }
 .card{
     display: flex;

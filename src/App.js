@@ -1,4 +1,4 @@
-// import HotBg from './assets/hot.jpg'
+import HotBg from './assets/hot.jpg'
 
 
 import { useEffect, useState } from 'react';
@@ -23,7 +23,7 @@ function App() {
 
       const threshold = units ==='metric'? 20:60;
       if (data.cel<= threshold) setBg(SnowBg)
-      else setBg(Sunnybg) 
+      else setBg(HotBg) 
       
 
     };
